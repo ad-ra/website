@@ -5,6 +5,9 @@
     font-size: 0.8cm;
     color: #7e4a72;
 }
+img {
+    width: 300px;
+}
 .header {
 min-height: 100vh;
 width: 100%;
@@ -20,7 +23,7 @@ position: relative;
 .navbar{
     margin: 30px auto;
     display: flex;
-align-items: center;
+    align-items: center;
 }
 .kuva {
     float: left;
@@ -46,7 +49,7 @@ ul li a{
 ul li a::after{
     content: '';
     width: 0;
-    height: 2px;
+    height: 4px;
     background: #cfa7c1;
     position: absolute;
     left: 50%;
@@ -167,3 +170,8 @@ h3{
     background:rgb(175, 157, 173, 0.7) ;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px 50px; 
+    grid-template-columns: 50% 50%;
+}
